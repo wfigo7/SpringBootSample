@@ -1,0 +1,5 @@
+(function($) {
+
+	//$(".small-box");
+
+})(jQuery);
