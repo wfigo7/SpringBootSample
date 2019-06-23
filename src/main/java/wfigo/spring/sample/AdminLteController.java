@@ -14,6 +14,6 @@ public class AdminLteController {
 	@RequestMapping("/adminlte/portal")
 	public String portal() {
 		
-		return "adminlte/portal_local";
+		return "adminlte/portal";
 	}
 }
