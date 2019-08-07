@@ -33,7 +33,7 @@ dependencies {
 	implementation 'org.webjars:jquery:3.4.1'
 	implementation 'org.webjars:jquery-ui:1.12.1'
 	implementation 'org.webjars.bower:adminlte:2.3.11'
-	implementation 'org.webjars:font-awesome:5.8.2'
+	implementation 'org.webjars:font-awesome:4.7.0'
 	implementation 'org.webjars.npm:ionicons:4.5.5'
 	implementation 'org.webjars.bower:raphael:2.2.7'
 	compileOnly 'org.projectlombok:lombok'
