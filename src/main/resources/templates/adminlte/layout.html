@@ -7,7 +7,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>AdminLTE Layout</title>
 </head>
-<body>
+<body class="hold-transition skin-blue sidebar-mini">
+
+<div class="wrapper">
+	<header th:replace="adminlte/header"></header>
+	<aside th:replace="adminlte/aside"></aside>
 	<div layout:fragment="contents"></div>
+	<footer th:replace="adminlte/footer"></footer>
+	<aside th:replace="adminlte/aside2"></aside>
+	
+	<th:block th:replace="adminlte/script">
+	</th:block>
+
+</div>
 </body>
 </html>
